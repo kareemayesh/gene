@@ -14,3 +14,10 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/table',function (){
+    return view('tables.table1');
+});
+Route::post('/TablePrint','main@TablePrint');
+Route::get('/print',function (){
+    return view('print.print');
+});
