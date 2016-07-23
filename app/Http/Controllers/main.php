@@ -10,6 +10,7 @@ class main extends Controller
 {
     public function TablePrint(Request $request){
         $data = $request->toArray();
+
         return view('print.print',compact('data'));
 
 
