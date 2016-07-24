@@ -12,16 +12,15 @@
 <body>
 <div class="container">
     <div class="row">
-        <div class="col-lg-4"><h3>{{"الاسم : ".$data['name']}}</h3></div>
-        <div class="col-lg-4"></div>
-        <div class="col-lg-4"><h3>{{"التاريخ : ".$data['date']}}</h3></div>
+        <div class="col-lg-12"><h3>{{"الاسم : ".$data['name']."    _   "."التاريخ : ".$data['date']}}</h3></div>
+       
     </div>
     <div class="row">
 
         <table class="table table-striped table-bordered">
             <thead>
             <tr>
-            <th>اليوم</th>
+            <th>الاسبوع الاول</th>
             <th>الفطور</th>
             <th>الغداء</th>
             <th>العشاء</th>
@@ -216,7 +215,10 @@
                             echo $data['w1d7d1']." + ".$data['w1d7d2'] ;
 
                         }else{echo $data['w1d7d1'];}}elseif ($data['w1d7d2'] !== ''){ echo $data['w1d7d2'];} ?></td>
-            </tr> 
+            </tr>
+            <tr>
+                <td colspan="4" style="text-align: center">الاسبوع الثاني</td>
+            </tr>
             <!-- -->
             <tr>
                 <td>السبت</td>
