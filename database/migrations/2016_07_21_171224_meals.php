@@ -14,7 +14,7 @@ class Meals extends Migration
     {
         Schema::create('meals', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer('PatientId');
+            $table->integer('PatientName');
             $table->date('date');
             $table->mediumText('value');
 

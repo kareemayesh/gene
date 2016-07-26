@@ -12,8 +12,8 @@
 <body>
 <div class="container">
     <div class="row">
-        <div class="col-lg-12"><h3>{{"الاسم : ".$data['name']."    _   "."التاريخ : ".$data['date']}}</h3></div>
-       
+        <div class="col-lg-12"><h3>{{"الاسم : ".$data['PatientName']."    _   "."التاريخ : ".$data['date']}}</h3></div>
+
     </div>
     <div class="row">
 
