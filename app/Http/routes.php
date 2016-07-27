@@ -25,6 +25,14 @@ Route::get('/table3',function (){
     /* low cost dinner*/
     return view('tables.table3');
 });
+Route::get('/table4',function (){
+    /* medium meat launch */
+    return view('tables.table4');
+});
+Route::get('/table5',function (){
+    /* medium meat dinner */
+    return view('tables.table5');
+});
 Route::post('/TablePrint','main@TablePrint');
 Route::get('/print',function (){
     return view('print.print');
