@@ -17,6 +17,14 @@ Route::get('/', function () {
 Route::get('/table',function (){
     return view('tables.table1');
 });
+Route::get('/table2',function (){
+    /* low cost launch */
+    return view('tables.table2');
+});
+Route::get('/table3',function (){
+    /* low cost dinner*/
+    return view('tables.table3');
+});
 Route::post('/TablePrint','main@TablePrint');
 Route::get('/print',function (){
     return view('print.print');
