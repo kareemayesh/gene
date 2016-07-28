@@ -41,6 +41,10 @@ Route::get('/table7',function (){
     /* hard meat launch */
     return view('tables.table7');
 });
+Route::get('/table8',function (){
+    /* low meat dinner */
+    return view('tables.table8');
+});
 Route::post('/TablePrint','main@TablePrint');
 Route::get('/print',function (){
     return view('print.print');
