@@ -33,6 +33,14 @@ Route::get('/table5',function (){
     /* medium meat dinner */
     return view('tables.table5');
 });
+Route::get('/table6',function (){
+    /* hard meat dinner */
+    return view('tables.table6');
+});
+Route::get('/table7',function (){
+    /* hard meat launch */
+    return view('tables.table7');
+});
 Route::post('/TablePrint','main@TablePrint');
 Route::get('/print',function (){
     return view('print.print');
