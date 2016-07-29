@@ -49,6 +49,10 @@ Route::get('/table9',function (){
     /* low meat launch */
     return view('tables.table8');
 });
+Route::get('/route',function (){
+
+    return view('pages.route');
+});
 Route::post('/TablePrint','main@TablePrint');
 Route::get('/print',function (){
     return view('print.print');

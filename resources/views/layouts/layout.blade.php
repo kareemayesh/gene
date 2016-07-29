@@ -48,11 +48,11 @@ License: You must have a valid license purchased only from themeforest(the above
 
 <body class="page-container-bg-solid page-md">
 
-
+<div class="page-content">
 
     @yield('content')
 
-
+</div>
 
 <!-- END FOOTER -->
 <!--[if lt IE 9]>
